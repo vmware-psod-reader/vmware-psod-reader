@@ -1,0 +1,83 @@
+body {
+		background-color: lightblue;
+		padding-top: 2%;
+}
+#form {
+	text-align: center;
+}
+
+#dataTable {
+	text-align: center;
+	table-layout: center;
+}
+
+
+#h3 {
+	color: black;
+}
+
+h1 {
+	color: black;
+}
+
+.instructions {
+	text-align: left;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.title {
+	padding-top: 2%;
+}
+
+.form {
+	text-align: center;
+}
+
+p {
+	padding: 2%;
+}
+
+.username {
+	display: none;
+}
+
+.password1 {
+	display: none;
+}
+
+.password2 {
+	display: none;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #fff;
+}
+
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.progressContainer {
+	display: none;
+	margin: auto;
+	width: 90%;
+}
+
+.fbarrows {
+	display: none;
+}
+
+.imageButton {
+	padding: 2%;
+}
+
+.address {
+	display: none;
+}

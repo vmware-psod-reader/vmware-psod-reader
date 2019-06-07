@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+	<TITLE>PSOD Calculator</TITLE>
+
+
+	<link rel="stylesheet" href="css/bootswatch.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</HEAD>
+<BODY>
+	<form class="form-group has-success" id="form">
+	<div class="title">
+		<h1>PSOD Debugger</h1>
+	</div>
+	<div class="instructions">
+	<div>
+    <blockquote> MCE errors are caused by hardware failures and cause ESXi servers to PSOD.
+			The MCi_STATUS register is useful in debugging the PSOD.
+			<br><br>The MCi_STATUS register consists of information about the machine check error.
+    The register is displayed next to the “S:” as shown in the example below. <br><br>MC: PCPU18 B:13 <strong>S:0xfe20004000011166</strong> M:0x7246040086 A:0x38c989b100 5
+		<br><br>
+		<a href="https://kb.vmware.com/s/article/1005184" target="external"><strong>Reference:</strong> <u>VMware KB - Decoding Machine Check Exception (MCE) output after a purple screen error (1005184)</u></a>
+		</blockquote>
+
+		<h3>How to Debug:</h3>
+		Simply input the last 4 characters of the MCi_STATUS code below and click Debug.
+	</div>
+	<p>
+  <strong>MCi_STATUS Code:</strong><br> <input id="code" type="text" maxlength="4" size="4" name="status"><br>
+	<br>
+	<input id="code" type="button" class="bg-success" onclick= "debug()" value="Debug">
+	<br>
+  </p>
+
+	<p id="errorMeaning"><strong>ERROR MEANING: </strong><br> </p>
+	<br>
+	</form>
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script src="js/debug.js"></script>
+
+</BODY>
+</HTML>
