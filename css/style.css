@@ -1,7 +1,7 @@
 body {
-		background-color: black;
+		background-color: 404448;
 		padding-top: 2%;
-		color: white;
+		color: FAFBFC;
 }
 #form {
 	text-align: center;
@@ -14,11 +14,15 @@ body {
 
 
 #h3 {
-	color: white;
+	color: FAFBFC;
+}
+
+a {
+	color: AFD135;
 }
 
 h1 {
-	color: white;
+	color: FAFBFC;
 }
 
 .instructions {
