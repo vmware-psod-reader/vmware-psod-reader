@@ -1,6 +1,7 @@
 body {
-		background-color: lightblue;
+		background-color: 024DA1;
 		padding-top: 2%;
+		color: white;
 }
 #form {
 	text-align: center;
@@ -13,11 +14,11 @@ body {
 
 
 #h3 {
-	color: black;
+	color: white;
 }
 
 h1 {
-	color: black;
+	color: white;
 }
 
 .instructions {
